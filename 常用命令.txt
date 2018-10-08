@@ -1,0 +1,5 @@
+预览hexo设置：hexo clean && hexo s
+更新主题：
+git clone 主题地址  本地存放地址（hexo\themes目录，并命名A）
+更改hexo根目录下config.yml（配置文件）中的theme属性：theme：主题名A
+部署到git:hexo d -g
