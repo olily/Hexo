@@ -10,7 +10,7 @@ head:
 
 Intro:
     name: OLILY
-    slogan: "高山仰止 <br/> 景行行止"
+    slogan: "高山仰止 <br/> 景行行止 <br/> 我们的目标是星辰大海"
     HeadButton: ME
 
 Nav:
@@ -41,7 +41,7 @@ Nav:
 
 MainFirst:
     name: Hello! I'm Olily
-    description: xixixixi.....来自第一次搭建博客的激动  怦~怦~怦~怦~ <br/> 我的心愿是世界和平  
+    description: xixixixi.....来自第一次搭建博客的激动  怦~怦~怦~怦~ <br/>  我的心愿是世界和平  
     pic_url: /images/me.jpg
     goto_ulr: ""
 
@@ -69,6 +69,9 @@ fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB"
 # 文章末尾添加“本文结束”标记
 passage_end_tag:
   enabled: true
+
+pageturn:
+  enable: true
 
 
 comment:

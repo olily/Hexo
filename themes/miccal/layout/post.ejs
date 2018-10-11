@@ -42,6 +42,13 @@
                 <%- partial('_partial/passage-end-tag') %>
             </div>
 
+              <section id="posts" class="posts">
+                <% for (var i=0;i<page.posts.length;i++ )
+                    post_template.render(post)
+                %>
+                <%- partial('_partial/pageturn') %>
+              </section>
+
 
 
             <!-- Post Comments -->

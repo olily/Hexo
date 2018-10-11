@@ -3,8 +3,12 @@ title: 简单sql练习50句之一
 date: 2018-10-07 12:17:17
 thumbnail: /gallery/img_3/dog.jpg
 categories: mysql # 分类
+tags: 
+- mysql
+- 数据库
+
 ---
--- ----------------------------
+
 #### <font color=pink> 笑一笑，十年少 </font>
 #### <font color=pink>xixixixi~xixixixi~xixixixi~xixixixi~xixixixi </font>
 闲来无事刷了点sql
@@ -125,12 +129,13 @@ categories: mysql # 分类
     INSERT INTO `sc` VALUES ('s004', 'c004', 56.03);
     INSERT INTO `sc` VALUES ('s003', 'c005', 54.90);
 ```
+---------------------
+
 #### <font color = pink>查询语句</font>
 ###### 1.查询学生表的前10条数据;
 ```sql
     select * from student limit 0,10;
 ```
-
 ###### 2.查询成绩表中的最低分,平均分,总分;
 ```sql
     select min(score),avg(score) avg,sum(score) sum
@@ -487,6 +492,7 @@ categories: mysql # 分类
 ```sql
     delete from sc where sno = 's002' and cno = 'c001'; 
 ```
+---------------------
 
 <font color=pink>xixixixixixi~</font>
 <font color=pink>望各位道友能原谅这突兀的粉色，满足我的少女心</font>
